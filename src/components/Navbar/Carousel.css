@@ -1,0 +1,243 @@
+@import "~antd/dist/antd.css";
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 70vh;
+    background: #364d79;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+
+.site-layout-content {
+    background: #fff ;
+    padding: 24px;
+    min-height: 280px;
+}
+
+.ant-dropdown-menu-title-content {
+    display: flex;
+    align-items: center;
+}
+
+.inputForm {
+    position: absolute;
+    top: 60%;
+    height: 20%;
+    width: 100%;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-space-item {
+    min-width: 45%;
+}
+
+.ant-select{
+    min-width: 160px;
+    min-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .ant-space-item{
+        text-align: center;
+    }
+    .ant-input-group{
+        display: inherit;
+    }
+    .ant-input-group-addon .ant-select{
+        margin: 0;
+    }
+}
+
+* body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    margin: 0 1%;
+    width: 31%;
+    /* padding: 0 20px; */    
+  }
+  .column-thong-ke {
+    float: left;
+    margin: 0;
+    width: 33%;
+    /* padding: 0 20px; */    
+  }
+  .alter-row{
+      margin-left: 0.5%;
+  }
+  .alter-row-tk{
+    margin-left: 3%; 
+    min-width: 70%;
+  }
+  /* Remove extra left and right margins, due to padding in columns */
+  .parent{
+    max-width: 100%;
+    /* margin: 0px; */
+    margin: 0 14%;
+  }
+  .row {
+    /* padding: 0 11%; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 100px;
+    }
+
+  .content{
+    max-width: 100%;
+    /* margin: 0px; */
+    margin: 5% 1.5%;
+    /* padding: 0 11%; */
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  /* .content-title{
+
+  } */
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    min-height: min-content;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .card-tk {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .logo {
+    justify-self: flex-start;
+    /* cursor: pointer; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .title {
+    justify-self: flex-start;
+    margin: 0 10%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    /* cursor: pointer; */
+    display: flex;
+    text-align: left;
+    min-height: 60px;
+    /* align-items: center; */
+    text-decoration: none;
+  }
+
+  .title-thong-ke {
+    justify-self: flex-start;
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: bold;
+    /* cursor: pointer; */
+    display: flex;
+    text-align: left;
+    /* align-items: center; */
+    text-decoration: none;
+  }
+  
+   .btn{
+    justify-self: flex-start;
+    margin: 0% 10%;
+    cursor: pointer;
+    display: flex;  
+    bottom: 0px;  
+    font-size: 1rem;
+    /* align-items: center; */
+    text-decoration: none;
+   }
+
+   .cnt-thong-ke{
+    justify-self: flex-start;
+    display: flex;  
+    bottom: 0px;  
+    margin-top: 3%;
+    font-weight: '500';
+    font-size: 1.1rem;
+    text-align: left;
+    /* align-items: center; */
+    text-decoration: none;
+   }
+
+   .arr{
+       content: \27F6;
+       size: large;
+       color: blue;
+   }
+
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 768px) {
+    .row {
+        margin: 0 15%;
+        position: flex;
+        bottom : -20px;
+    }
+    .column {
+      width: 68%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .title{
+        font-size: 1rem;
+        min-height: fit-content; 
+    }
+
+    .btn{
+        font-size: 0.8rem;
+    }
+
+    /* .card{
+        min-height: min-content;
+    } */
+  }
+
+  @media screen and (max-width:966px) and (min-width:841px) {
+    .title{
+        font-size: 1.1rem;
+        min-height: 80px;
+    }
+  }
+
+  @media screen and (max-width:1338px) and (min-width:967px) {
+    .title{
+        font-size: 1.2rem;
+        min-height: 90px;
+    }
+}
+
+    @media screen and (max-width:840px) and (min-width:769px){
+    .title{
+        font-size: 1.1rem;
+        min-height: 108px;
+    }
+}

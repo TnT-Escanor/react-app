@@ -1,0 +1,75 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "vnnic-logo-f.png",
+      "type": "image/png",
+      "sizes": "641x78"
+    },
+    {
+      "src": "logo1.jpg",
+      "type": "image/jpg",
+      "sizes": "1000x369"
+    },
+    {
+      "src": "Content1.png",
+      "type": "image/png",
+      "sizes": "480x535"
+    },
+    {
+      "src": "Content2.png",
+      "type": "image/png",
+      "sizes": "480x535"
+    },
+    {
+      "src": "Content3.png",
+      "type": "image/png",
+      "sizes": "1024x640"
+    },
+    {
+      "src": "Content4.png",
+      "type": "image/png",
+      "sizes": "1024x640"
+    },
+    {
+      "src": "Content5.png",
+      "type": "image/png",
+      "sizes": "1024x640"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "Capture1.png",
+      "type": "image/png",
+      "sizes": "1134x661"
+    },
+    {
+      "src": "Capture.png",
+      "type": "image/png",
+      "sizes": "264x37"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "256x102"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
